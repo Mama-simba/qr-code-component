@@ -41,7 +41,7 @@ There are different approaches when building a simple component: flexbox, grid, 
 
 ## Author
 
-- Website - [cristina-padilla](https://www.cristina-padilla.com)
+- Website - [www.cristina-padilla.com](https://www.cristina-padilla.com)
 - Frontend Mentor - [Cristina Padilla](https://www.frontendmentor.io/profile/Mama-simba)
 - Twitter - [@crispitipina](https://www.twitter.com/crispitipina)
 
