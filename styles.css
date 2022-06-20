@@ -1,0 +1,85 @@
+ * {
+    padding: 0;
+    margin: 0;
+ }
+
+ body {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--lightgray);
+    font-size: 15px;
+ }
+
+ :root{ 
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+ }
+
+ .card {
+    width: 30%;
+    height: auto;
+    margin: 5% auto 5% auto;
+    padding: 20px 0 30px 0;
+    background-color: var(--white);
+    border-radius: 15px;
+ }
+
+ img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+ }
+
+ 
+
+ .headline {
+    font-weight: 700;
+    font-size: 22px;
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+    color: var(--darkblue);
+ }
+
+ .description {
+    width: 85%;
+    margin: 0 auto;
+    color: var(--grayishblue);
+    font-weight: 400;
+    text-align: center;
+ }
+
+
+ .attribution {
+    text-align: center;
+ }
+
+ .attribution a {
+    text-decoration: none;
+    color: var(--darkblue);
+    font-weight: 700;
+ }
+
+ .attribution a:hover{
+    cursor: pointer;
+    color: var(--white);
+ }
+
+ @media (max-width: 732px) and (min-width: 555px) {
+
+    .card {
+        width: 50%;
+}
+    
+ }
+
+  @media (max-width: 554px) {
+
+      .card {
+          width: 80%;
+      }
+
+  }
